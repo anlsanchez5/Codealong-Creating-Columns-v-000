@@ -109,7 +109,7 @@ img, video, audio {
   content: ".";
   display: block;
   clear: both;
-  visibility: hiden;
+  visibility: hidden;
   height: 0;
   line-height: 0;
 }
@@ -123,6 +123,7 @@ img, video, audio {
 }
 
 /*////// SECTIONS //////*/
+
 header {
   position: fixed;
   top: 0;
@@ -141,7 +142,7 @@ section {
 
 #social {
   position: fixed;
-  top: 200px
+  top: 200px;
   right: 20px;
   width: 40px;
   z-index: 1;
